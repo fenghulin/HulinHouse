@@ -1,4 +1,4 @@
-package com.atguigu.mr;
+package com.atguigu.mr.wordcunt1;
 
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.LongWritable;
@@ -19,6 +19,16 @@ import java.io.IOException;
  */
 public class WordCountMapper extends Mapper<LongWritable, Text,Text, IntWritable> {
 
+    @Override
+    protected void setup(Mapper<LongWritable, Text, Text, IntWritable>.Context context) throws IOException, InterruptedException {
+        System.out.println("setup执行了");
+    }
+
+    @Override
+    protected void cleanup(Mapper<LongWritable, Text, Text, IntWritable>.Context context) throws IOException, InterruptedException {
+        System.out.println("cleanup执行了");
+    }
+
     /**
      * Map阶段核心业务处理方法，每输入一行数据会调用一次map方法
      * @param key  输入的数据key
@@ -38,6 +48,6 @@ public class WordCountMapper extends Mapper<LongWritable, Text,Text, IntWritable
         for (String data : datas) {
             context.write(new Text(data),new IntWritable(1));
         }
-
+        System.out.println("map方法执行了");
     }
 }

@@ -1,4 +1,4 @@
-package com.atguigu.mr;
+package com.atguigu.mr.wordcunt1;
 
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
