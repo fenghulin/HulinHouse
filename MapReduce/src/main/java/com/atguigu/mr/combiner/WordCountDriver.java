@@ -1,4 +1,4 @@
-package com.atguigu.mr.wordcunt;
+package com.atguigu.mr.combiner;
 
 
 import org.apache.hadoop.conf.Configuration;
@@ -6,17 +6,18 @@ import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
-import org.apache.hadoop.mapreduce.lib.input.CombineTextInputFormat;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
 import java.io.IOException;
+import java.util.Scanner;
 
 /**
  * MR程序驱动类用于提交MR任务
  */
 public class WordCountDriver {
     public static void main(String[] args) throws IOException, InterruptedException, ClassNotFoundException {
+
         //声明配置对象
         Configuration conf = new Configuration();
         //声明job象
@@ -33,13 +34,15 @@ public class WordCountDriver {
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass (IntWritable.class);
 
+        //指定自定义的combiner
+        job.setCombinerClass(WordCountCombiner.class);
         //指定CombinTextInputFormat中切片的最大值
 //        CombineTextInputFormat.setMaxInputSplitSize(job,4194304);
         //指定输入数据的路径和输出输的路径
 //        job.setInputFormatClass(CombineTextInputFormat.class);
 
         FileInputFormat.setInputPaths(job,new Path("G:\\2021尚硅谷大数据\\03.Hadoop\\02.资料\\07_测试数据\\combine"));
-        FileOutputFormat.setOutputPath(job,new Path("G:\\2021尚硅谷大数据\\03.Hadoop\\02.资料\\07_测试数据\\combine_out1"));
+        FileOutputFormat.setOutputPath(job,new Path("G:\\2021尚硅谷大数据\\03.Hadoop\\02.资料\\07_测试数据\\combine_out2"));
 //        FileInputFormat.setInputPaths(job,new Path(args[0]));
 //        FileOutputFormat.setOutputPath(job,new Path(args[1]));
         //提交job

@@ -1,11 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="26c31380-a82c-44e6-93f6-0e111cf0d7fc" name="更改" comment="" />
+    <list default="true" id="26c31380-a82c-44e6-93f6-0e111cf0d7fc" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MapReduce/src/main/java/com/atguigu/mr/combiner/WordCountCombiner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MapReduce/src/main/java/com/atguigu/mr/combiner/WordCountDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MapReduce/src/main/java/com/atguigu/mr/combiner/WordCountMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MapReduce/src/main/java/com/atguigu/mr/combiner/WordCountReduce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Zookeeper/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Zookeeper/src/main/java/com/hulin/zk/ZookeeperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Zookeeper/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MapReduce/src/main/java/com/atguigu/mr/wordcunt/WordCountDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/MapReduce/src/main/java/com/atguigu/mr/wordcunt/WordCountDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MapReduce/src/main/java/com/atguigu/mr/wordcunt/WordCountMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/MapReduce/src/main/java/com/atguigu/mr/wordcunt/WordCountMapper.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="2UZMityISXNawaJD0VIN4B5HEQe" />
   <component name="ProjectViewState">
@@ -15,12 +48,112 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "G:/IdeaProject/HdfsClient/HdfsClient",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "G:/IdeaProject/HdfsClient",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.ZookeeperTest.testsetDate">
+    <configuration name="ZookeeperTest.exit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Zookeeper" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hulin.zk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hulin.zk" />
+      <option name="MAIN_CLASS_NAME" value="com.hulin.zk.ZookeeperTest" />
+      <option name="METHOD_NAME" value="exit" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZookeeperTest.testDeleteNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Zookeeper" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hulin.zk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hulin.zk" />
+      <option name="MAIN_CLASS_NAME" value="com.hulin.zk.ZookeeperTest" />
+      <option name="METHOD_NAME" value="testDeleteNode" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZookeeperTest.testGetChild" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Zookeeper" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hulin.zk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hulin.zk" />
+      <option name="MAIN_CLASS_NAME" value="com.hulin.zk.ZookeeperTest" />
+      <option name="METHOD_NAME" value="testGetChild" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZookeeperTest.testGetDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Zookeeper" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hulin.zk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hulin.zk" />
+      <option name="MAIN_CLASS_NAME" value="com.hulin.zk.ZookeeperTest" />
+      <option name="METHOD_NAME" value="testGetDate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZookeeperTest.testsetDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Zookeeper" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hulin.zk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hulin.zk" />
+      <option name="MAIN_CLASS_NAME" value="com.hulin.zk.ZookeeperTest" />
+      <option name="METHOD_NAME" value="testsetDate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ZookeeperTest.testsetDate" />
+        <item itemvalue="JUnit.ZookeeperTest.testDeleteNode" />
+        <item itemvalue="JUnit.ZookeeperTest.testGetDate" />
+        <item itemvalue="JUnit.ZookeeperTest.exit" />
+        <item itemvalue="JUnit.ZookeeperTest.testGetChild" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
@@ -30,6 +163,7 @@
       <option name="presentableId" value="Default" />
       <updated>1693142779429</updated>
       <workItem from="1693142780423" duration="52000" />
+      <workItem from="1700296746666" duration="11719000" />
     </task>
     <servers />
   </component>
